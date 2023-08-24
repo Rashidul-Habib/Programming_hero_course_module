@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mixed Selectors</title>
+
+    <style>
+      * {
+        /* margin: 0; */
+      }
+      p {
+        color: blue;
+      }
+      #fifth {
+        font-size: 20px;
+      }
+      .red {
+        color: black;
+        background-color: rgb(224, 174, 174);
+      }
+      .mota {
+        font-weight: 900;
+      }
+      #css {
+        color: red;
+      }
+
+      /* NOTE this is a attribute selector */
+      input[type="password"] {
+        color: red;
+        margin-top: 5px;
+        width: 30%;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="mota">My first line <span id="css">css</span></p>
+    <p class="red">My second line css</p>
+    <p>My third line css</p>
+    <p id="fifth">My forth line css</p>
+    <p class="red mota">My fifth line css</p>
+
+    <ol>
+      <li>Element selector</li>
+      <li>ID selector</li>
+      <li class="mota red">class selector</li>
+      <li>Universal selector</li>
+    </ol>
+
+    <form action="">
+      <input type="text" />
+      <br />
+      <input type="password" name="" id="" />
+    </form>
+  </body>
+</html>
