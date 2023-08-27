@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pitha Ghor</title>
+    <style>
+      label {
+        display: block;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <h2>Please fill up the form</h2>
+      <!-- REVIEW: this section -->
+      <form action="">
+        <label for="name">
+          Your Name:
+          <input id="name" type="text" placeholder="Your name" />
+        </label>
+
+        <label for="email">
+          Your Email:
+          <input type="email" placeholder="Your Email" name="" id="email" />
+        </label>
+
+        <label for="phone">
+          Your Phone:
+          <input type="text" placeholder="Phone Number" id="phone" />
+        </label>
+
+        <!-- REVIEW: learn the hole section -->
+        <fieldset>
+          <legend>pick one pitha</legend>
+          <label for="chitoy">
+            <input type="radio" name="pitha" id="chitoy" /> Chitoy
+          </label>
+
+          <label for="Vapa">
+            <input type="radio" name="pitha" id="vapa" /> Vapa
+          </label>
+
+          <label for="tel">
+            <input type="radio" name="pitha" id="tel" /> Tel Pitha
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Pic one or more vorta</legend>
+          <label for="sorisha">
+            <input type="checkbox" name="" id="sorisha" /> Sorisha
+          </label>
+
+          <label for="dhonia">
+            <input type="checkbox" name="" id="dhonia" /> Dhonia
+          </label>
+
+          <label for="chatni">
+            <input type="checkbox" name="" id="chatni" />Chatni
+          </label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Special Instruction</legend>
+          <textarea name="write" id="wish" cols="30" rows="5"></textarea>
+        </fieldset>
+
+        <input type="reset" value="Reset" />
+        <input type="submit" value="Submit" />
+      </form>
+    </main>
+  </body>
+</html>
