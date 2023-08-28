@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><Table></Table></title>
+    <link rel="stylesheet" href="styles/nav.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="audio.html">Audio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li>
+            <a href="form.html">Forms</a>
+            <ul class="dropdown">
+              <li><a href="audio.html">Audio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="navigation.html">navigation</a>
+            <ul class="dropdown">
+              <li><a href="audio.html">Audio</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li>
+                <a href="blog.html">Blog</a>
+                <ul class="dropdown">
+                  <li><a href="audio.html">Audio</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                  <li><a href="blog.html">Blog</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Html Table</h1>
+      <table>
+        <!-- NOTE: 'CAPTION' tag in table for a caption -->
+        <caption>
+          Employee Salary Table
+        </caption>
+        <thead>
+          <tr>
+            <th>NO.</th>
+            <th>name</th>
+            <th>Company name</th>
+            <th>Salary</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Bill Gates</td>
+            <td>Microsoft</td>
+            <td>10000$</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Stive Jobs</td>
+            <td>Apple</td>
+            <td>20000$</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Jukar Barg</td>
+            <td>Facebook</td>
+            <td>20500$</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Elan Mask</td>
+            <td>SpaceX</td>
+            <td>300000$</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <!-- NOTE: learn about 'colspan' attribute -->
+            <td colspan="4">Total Employee</td>
+          </tr>
+        </tfoot>
+      </table>
+    </main>
+
+    <ul>
+      <li>Table: table</li>
+      <li>Table head: thead</li>
+      <li>Table body: tbody</li>
+      <li>Table footer: tfoot</li>
+      <li>Table row: tr</li>
+      <li>Table data: td</li>
+      <li>for table heading: th</li>
+    </ul>
+  </body>
+</html>
